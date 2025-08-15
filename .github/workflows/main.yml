@@ -20,7 +20,7 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          cd /var/www/chavalit.csbootstrap.com/myexpress2
+          cd /var/www/phanuwich.csbootstrap.com/myexpress
           git pull origin main
           npm install
           pm2 restart all
